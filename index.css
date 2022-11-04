@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    box-sizing: border-box;
+}
+
+/* =================
+Typography
+================= */
+
+form select, form button {
+    color: #D1D5DB
+}
+
+
+
+/* =================
+Layout
+================= */
+
+.container {
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 26px;
+}
+
+header {
+    height: 80px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+form select, form input, form button {
+    height: 42px;
+    border: 1px solid #D1D5DB;
+}
+
+form input{
+    width: 15%;
+}
+
+form select {
+    width: 55%;
+    min-width: 150px;
+    background-color: #1F293A;
+    padding: .5rem;
+}
+form button {
+    width: 20%;
+    min-width: 90px;
+    background: #3D4B60;
+    padding: .3em;
+}
