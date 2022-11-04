@@ -9,10 +9,9 @@ body {
 Typography
 ================= */
 
-form select, form button {
+form select, form button, .color-names {
     color: #D1D5DB
 }
-
 
 
 /* =================
@@ -71,3 +70,17 @@ form button {
     width: 20%;
     height: 550px;
 }
+
+.color-names {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    height: 46px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid magenta;
+}
+
